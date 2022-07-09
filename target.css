@@ -1,0 +1,34 @@
+
+#targetgame{
+	margin: auto;
+	width: 800px;
+	height: 600px;
+	border: 1px solid black;
+	#background-color: black;
+	position: relative;
+	overflow: hidden;
+}
+
+.target{
+	width: 150px;
+	height: 400px;
+	position: absolute;
+	background-color: purple;
+	bottom: -400px;
+	transition: all .5s;
+}
+
+.target.up{
+	bottom:0;
+}
+
+.target.wet {
+	background-color: gray;
+	height: 50px;
+}
+
+#target0{left: 5px;}
+#target1{left: 165px;}
+#target2{left: 325px;}
+#target3{left: 485px;}
+#target4{left: 645px;}
