@@ -4,7 +4,7 @@
 	width: 800px;
 	height: 600px;
 	border: 1px solid black;
-	#background-color: black;
+	background-color: black;
 	position: relative;
 	overflow: hidden;
 }
@@ -18,11 +18,11 @@
 	transition: all .5s;
 }
 
-.target.up{
+.up{
 	bottom:0;
 }
 
-.target.wet {
+.wet {
 	background-color: gray;
 	height: 50px;
 }
